@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int a[10][10], n, sb[10], sd[10];
+int a[10][10], n, sb[10];
 
 void read_adjMatrix()
 {
@@ -60,7 +60,7 @@ void main()
 
     printf("\nBREADTH FIRST SEARCH nodes visited from %d: ",src);
     for(i=0;i<n;i++)
-        sd[i]=0;
+        sb[i]=0;
     bfs(src);
     printf("\n");
 }
