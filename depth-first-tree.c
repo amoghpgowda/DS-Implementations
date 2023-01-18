@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int a[10][10], n, sb[10], sd[10];
+int a[10][10], n, sd[10];
 
 void read_adjMatrix()
 {
